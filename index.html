@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+     <header>
+     	
+       <title> aMAYSInk Art!</title>
+            <h1 id="serif">aMAYSInk Art</h1>
+              <link rel="stylesheet" type="text/css" href="css/presentation.css">
+              
+          </header> 
+           <body>  
+                   
+                     <img src="images/mybutterfly2.png" alt="Butterfly2" width="200" height="100" class="mybutterfly2">
+                     <img src="images/art.png" alt="Art" id="art">
+                      <img src="images/paintingtools.png" alt="Painting Tools" width="300" height="300">
+                     <img src="images/mybutterfly2.png" alt="Butterfly2" width="200" height="100" class="mybutterfly2">
+           	                      
+                               <div class="centered">
+                                  
+                                 <button onclick="showPics('acrylicpaintings')">Acrylic Paintings</button>
+                                 <button onclick="showPics('charcoalpaintings')">Charcoal Paintings</button>
+                                 <button>Parent Boxes</button>
+                                 <button>Graduation Box</button>
+                                 <button onclick="alert('Coming Soon...')">Photography</button>
+                                 <button onclick="alert('Coming Soon...')">Birthday Cards, Banners, etc</button>
+                                 <button onclick="alert('Coming Soon...')">Drawings</button>
+                               </div>
+                                 
+                                 <div id="acrylicpaintings" style="display: none">
+
+                                 <img src="images/paint.jpg" alt="Paint" width="300" height="300">
+                                 <img src="images/simplepainting.jpg" alt="Simple" width="300" height="300">
+                               </div>
+                                <div id="charcoalpaintings" style="display:none">
+
+                                   <img src="images/charcoal.jpg" alt="Paint" width="300" height="300">
+
+                                </div>
+
+                                 
+
+                         <table>
+                          <tbody>
+           	                <tr><td><img src="images/me.png"  alt="Me!" width="200" height="300" id="me"> 
+                               <img src="images/mybutterfly2.png" alt="Butterfly2" width="200" height="100" class="mybutterfly2">
+
+                          
+                          </td></tr>
+                
+                          <tr><td>I am an artist in Memphis, Tennessee. I am hoping for possible lifelong customers!</td></tr>
+                          <tr><td>Each photo is in an album describing what was use to create each masterpiece.</td></tr>
+                          <tr><td>This is a public page that is open to all genders, races, ethnicities, sexualities, etc..</td></tr>
+                          <tr><td> I would love support from any &amp; everyone!</td></tr>
+                          <tr><td>Feel free to share images of my art work &amp; pass along my website.</td></tr>
+                          <tr><td>Thank you all in advance! I look forward to working with you all!</td></tr>
+                          <tr><td>Please be professional with all transactions. I have the right to refuse my services to you!</td></tr>
+                          <tr><td>Bless!</td></tr>
+                        </tbody>
+                        </table>
+                         <table>
+                            <tbody>
+                             <tr><td><img src="images/bio.png" alt="Bio" width="200" height="200" id="mybio">
+                                     <img src="images/mybutterfly2.png" alt="Butterfly2" width="200" height="100" class="mybutterfly2">
+                             </td></tr>
+                                     
+                             <tr>
+                               <td>Bio:</td>
+                             </tr>
+                               <tr>
+                               <td>My name is Christina Mays. I am a freelance artist.</td></tr>
+
+                               <tr><td>I enjoy doing art as much as you all like receiving it. I do all my work in Memphis, Tennessee.</td></tr>
+                               <tr><td>I do ship artwork. I'm entergetic, so prepare for a fun experience.</td></tr>
+                               <tr>
+                                 <td>If you want to contact me, please contact me at cmichellemays3@gmail.com.</td>
+                               </tr>
+                             </tr>
+                           </tbody>
+                           </table>
+                           <div class="spacing"></div>
+                             
+                <script>
+                  
+                  function showPics(arts){
+                     var myDiv = document.getElementById(arts);
+                     if(myDiv.style.display == "none")
+                     {
+                      myDiv.style.display = "block";
+
+                     }
+                     else
+                     {
+                       myDiv.style.display = "none";
+                     }
+                  }
+
+                </script>
+                                    
+             </body>
+          
+</html>

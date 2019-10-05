@@ -1,0 +1,60 @@
+#mybio{
+
+    margin: auto;
+
+
+}
+
+
+#me
+{
+    margin: auto;
+
+}
+#art
+{
+	margin: auto;
+	display: block;
+	width: 50%;
+	
+}
+
+.mybutterfly2
+{
+	float: left;
+   
+}
+.centered
+{
+	text-align: center;
+}
+.spacing
+{
+	padding-bottom: 25px;
+}
+h1{ 
+color:purple;
+font-size: 55px;
+text-align: center;
+font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+
+}
+
+body{
+       background:none;
+       width: 75%;
+
+}
+
+html
+{
+
+	margin: auto;
+	
+}
+
+table
+{
+	color:purple;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
